@@ -8,7 +8,7 @@ import MainContact from './ContactUs/MainContact'
 import MainCourse from "./Course_sec/MainCourse"
 import MainHome from './Home/MainHome'
 import InstituteLogin from './institute_login/InstituteLogin'
-import AdminLogin from "./Institute_login/AdminLogin"
+import AdminLogin from "./institute_login/AdminLogin"
 
 
 function App() {

@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../images/logo.png";
+import { Link } from "react-router-dom";
 function InstituteLogin() {
   return (
     <div className="flex flex-col items-center m-2 p-2 gap-3">
@@ -21,15 +22,17 @@ function InstituteLogin() {
         <button className="bg-black text-white p-2 border-2 rounded-md hover:text-black hover:bg-transparent hover:border-black hover:cursor-pointer font-medium px-3 md:w-[50%] lg:w-[150%] lg:text-xl">
           Login
         </button>
+        <Link to={"/Adminlogin"}>
         <p className="font-medium hover:underline  hover:cursor-pointer">
           Login to Admin Account?
-        </p>
+        </p></Link>
+        
         <p className="font-medium hover:underline  hover:cursor-pointer">
           Email: info@icvte.com
         </p>
-        <p className="font-medium hover:underline  hover:cursor-pointer ">
+        <Link to={"/"}><p className="font-medium hover:underline  hover:cursor-pointer ">
           Back to Welcome Page
-        </p>
+        </p></Link>
       </div>
     </div>
   );
