@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+
+
+.bubble {
+  position: absolute;
+  animation-timing-function: ease-in-out;
+}
+
+.animate-bubble1 {
+  animation: moveBubble1 5s ease-in-out infinite;
+}
+
+.animate-bubble2 {
+  animation: moveBubble2 7s ease-in-out infinite;
+}
+
+.animate-bubble3 {
+  animation: moveBubble3 6s ease-in-out infinite;
+}
